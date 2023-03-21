@@ -1,0 +1,88 @@
+.a8-box {
+    background-color: rgb(244, 250, 253);
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 230px;
+}
+.a8-first-line {
+    height: 60px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+.a8-icon-box {
+    display: flex;
+    margin-left: -80px;
+}
+.a8-icon-container {
+    width: 365px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    padding-right: 0px;
+    margin-left: 80px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+}
+.a8-icon-first-line {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(255, 64, 129);
+}
+.a8-icon-second-line {
+    font-size: 16px;
+    font-weight: 700;
+}
+.a8-icon-third-line {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: justify;
+    width: 320px;
+}
+
+
+
+@media (max-width:767px) {
+    .a8-box {
+        background-color: rgb(244, 250, 253);
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+    .a8-first-line {
+        height: auto;
+        font-size: 40px;
+        font-weight: 900;
+        padding-top: 150px;
+        padding-bottom: 60px;
+    }
+    .a8-icon-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+    }
+    .a8-icon-container {
+        width: 365px;
+        height: 400px;
+        background-color: white;
+        padding: 20px;
+        margin-left: 0px;
+        box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+        margin-bottom: 70px;
+    }
+    
+.a8-icon-third-line {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: justify;
+    width: auto;
+}
+}

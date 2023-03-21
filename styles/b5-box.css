@@ -1,0 +1,108 @@
+.b5-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+.b5-header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.b5-main {
+    display: flex;
+}
+.b5-text-box {
+    margin-left: 40px;
+}
+.b5-first-input-line {
+    display: flex;
+}
+.name , .b5-second-input-line , .b5-third-input-line {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.name input , .b5-second-input-line input , .b5-third-input-line input {
+    margin-top: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    height: 50px;
+}
+
+.b5-second-input-line input , .b5-third-input-line input {
+    width: 100%;
+}
+.b5-button {
+    display: flex;
+    justify-content: end;
+    margin-right: 35px;
+}
+.b5-button button {
+    
+   background-color: rgb(255, 64, 129);
+   border: none;
+   padding: 12px 80px;
+   border-radius: 10px;
+   color: white;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .b5-image {
+        display: none;
+    }.b5-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    .b5-first-input-line {
+        display: flex;
+        flex-direction: column;
+        width: 747px;
+    }
+    .name , .b5-second-input-line , .b5-third-input-line {
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        margin-bottom: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        width: auto;
+    }
+    
+.b5-text-box {
+    margin-left: 0px;
+    width: auto;
+}
+.name input , .b5-second-input-line input , .b5-third-input-line input {
+    margin-top: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    height: 50px;
+    width: auto;
+}
+.b5-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 35px;
+}
+}

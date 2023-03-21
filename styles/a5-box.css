@@ -1,0 +1,129 @@
+.a5-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.a5-first-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 70px 70px;
+}
+.a5-icon-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+.a5-icon-container {
+    height: 145px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.a5-icon {
+    color: #32A4FF;
+    margin-left: 25px;
+    margin-top: 23px;
+}
+.a5-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 25px;
+    width: 303px;
+}
+.for-background1 {
+    background-color: rgba(226, 242, 255, 1);
+    height: 145px;
+}
+.for-background2 {
+    background-color: rgba(255, 237, 238, 1);
+    height: 145px;
+}
+.for-background3 {
+    background-color: rgba(217, 248, 231, 1);
+    height: 145px;
+}
+.for-background4 {
+    background-color: rgba(217, 245, 248, 1);
+    height: 145px;
+}
+.for-background5 {
+    background-color: rgba(255, 237, 221, 1);
+    height: 145px;
+}
+.for-background6 {
+    background-color: rgba(221, 227, 253, 1);
+    height: 145px;
+}
+.for-background7 {
+    background-color: rgba(217, 248, 231, 1);
+    height: 145px;
+}
+.for-background8 {
+    background-color: rgba(217, 245, 248, 1);
+    height: 145px;
+}
+.for-background9 {
+    background-color: rgba(255, 237, 238, 1);
+    height: 145px;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .a5-box {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px 40px;
+    }
+    
+.a5-icon-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+.for-background5 {
+    height: 0px;
+    display: none;
+}
+.for-background6 {
+    background-color: rgba(221, 227, 253, 1);
+    height: 145px;
+    display: none;
+}
+.for-background7 {
+    background-color: rgba(217, 248, 231, 1);
+    height: 145px;
+    display: none;
+}
+.for-background8 {
+    background-color: rgba(217, 245, 248, 1);
+    height: 145px;
+    display: none;
+}
+.for-background9 {
+    background-color: rgba(255, 237, 238, 1);
+    height: 145px;
+    display: none;
+}
+
+.a5-icon-container {
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+}

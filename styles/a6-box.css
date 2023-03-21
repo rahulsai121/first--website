@@ -1,0 +1,57 @@
+.a6-box {
+    background-color: rgb(244, 250, 253);
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 150px;
+    padding-left: 90px;
+    padding-right: 60px;
+    margin-top: 75px;
+}
+.a6-right-section {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.a6-right-image {
+    width: 552px;
+    height: 314.42px;
+    margin-top: 30px;
+}
+.a6-first-line {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(255, 64, 129);
+    margin-bottom: 20px;
+    width: 700px;
+}
+.a6-second-line {
+    width: 700px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 706px;
+    text-align: justify;
+    line-height: 30px;
+}
+.a6-button button {
+    
+   background-color: rgb(255, 64, 129);
+   color: white;
+   font-weight: 400;
+   font-size: 18px;
+   border: none;
+   margin-right: 24px;
+   border-radius: 8px;
+   width: 188px;
+   height: 52px;
+
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .a6-box {
+        display: none;
+    }
+}

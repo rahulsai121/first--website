@@ -1,0 +1,144 @@
+.a4-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.a4-first-line {
+    height: 60px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.a4-sub-box {
+    display: flex;
+    padding-left: 100px;
+}
+.a4-left-section {
+    margin-bottom: 30px;
+    width: 700px;
+    padding-top: 20px;
+}
+.a4-second-line {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    color:  #FF4081;
+}
+.a4-third-line {
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    width: 700px;
+    text-align: justify;
+    line-height: 30px;
+}
+.a4-left-section-icon {
+    margin-bottom: 35px;
+    margin-left: -15px;
+    display: flex;
+}
+.a4-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    height: 130px;
+    width:  160px;
+    border: solid rgba(95, 212, 255, 1) 1px;
+    box-shadow: 0px 0px 10px rgb(8, 40, 67, 0.15);
+
+}
+.a4-icon {
+    width: 32px;
+    height: 32px;
+    padding-top: 15px;
+}
+.a4-icon-first-line {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.a4-icon-second-line {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    line-height: 18px;
+    width: 140px;
+    text-align: center;
+}
+.a4-box button {
+   background-color: rgb(255, 64, 129);
+   color: white;
+   font-weight: 400;
+   font-size: 18px;
+   border: none;
+   border-radius: 8px;
+   width: 188px;
+   height: 52px;
+}
+.a4-right-section-image {
+    width: 297px;
+    height: 543px;
+    padding-left: 270px;
+    padding-top: 63px;
+}
+
+
+
+
+
+
+@media (max-width:767px) {
+    .a4-box {
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        align-items: center;
+    }
+    .a4-sub-box {
+        
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .a4-right-section-image {
+        width: 297px;
+        height: 543px;
+        padding-left: 0px;
+        padding-top: 63px;
+    }
+    
+.a4-left-section {
+    margin-bottom: 30px;
+    width: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a4-third-line {
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    width: 456px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.a4-left-section-icon {
+    margin-bottom: 35px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+}

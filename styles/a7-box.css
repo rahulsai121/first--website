@@ -1,0 +1,48 @@
+.a7-box {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 90px;
+    padding-bottom: 150px;
+}
+.a7-left-section {
+    width: 800px;
+}
+.a7-first-line {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(255, 64, 129);
+    margin-bottom: 20px;
+}
+
+.a7-second-line {
+    width: 700px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 690px;
+    text-align: justify;
+    line-height: 30px;
+}
+.a7-right-section {
+    padding-left: 80px;
+    position: relative;
+}
+.a7-first-image {
+    width: 212.38px;
+    height: 424.75px;
+}
+.a7-second-image {
+    position: absolute;
+    top: 50px;
+    right: -53px;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .a7-box {
+        display: none;
+    }
+}

@@ -1,0 +1,133 @@
+.b1-box {
+    margin-left: 100px;
+    
+    padding-bottom: 150px;
+}
+.b1-heading {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+    padding-top: 150px;
+}
+.b1-p1 {
+    color: rgb(255, 64, 129);
+    padding-right: 20px;
+    position: relative;
+}
+
+.b1-p1::after {
+    content: "*";
+    color: rgba(20, 129, 186, 1);
+    background-color: rgba(20, 129, 186, 1);
+    font-size: 0px;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+.b1-p2 {
+    color:  rgba(20, 129, 186, 1);
+}
+
+.b1-first-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 70px;
+}
+.b1-first-box {
+    display: flex;
+}
+.b1-first-image {
+    margin-right: 35px;
+}
+.b1-image {
+    height: 175px;
+    width: 160px;
+    border-radius: 20px;
+}
+.b1-first-line {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.b1-second-line {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.b1-third-line {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: gray;
+    width: 300px;
+}
+.b1-button {
+   background-color: rgba(235, 44, 125, 0.1);
+   color: rgba(235, 44, 125, 1);
+   border: none;
+   padding: 4px 40px 4px 16px;
+   width: 125px;
+   height: 40px;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+.b1-button-box {
+    position: relative;
+}
+.b1-first-icon {
+    position: absolute;
+    left: 95px;
+    bottom: 9px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    
+    .hiden-for-phone {
+        display: none;
+    }
+    .b1-box {
+        margin-left: 0px;
+        padding-bottom: 50px;
+    }
+    .b1-first-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b1-first-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b1-line-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .b1-third-line {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+        color: gray;
+        width: 400px;
+    }
+    
+}

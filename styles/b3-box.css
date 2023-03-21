@@ -1,0 +1,49 @@
+.b3-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
+.b3-header {
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.b3-header-phone {
+    display: none;
+}
+.b3-icons-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 40px;
+}
+.b3-icon-container {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0px 0px 19px rgba(79, 10, 39, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media (max-width:767px) {
+
+    
+.b3-header {
+    display: none;
+}
+.b3-header-phone {
+    display: inline;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+}
