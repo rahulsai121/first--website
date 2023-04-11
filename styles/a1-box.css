@@ -2,7 +2,7 @@
     background-color: red;
     display: flex;
     height: 600px;
-    align-items: center;
+    align-items: start;
 }
 .left-section {
     width: 900px;
